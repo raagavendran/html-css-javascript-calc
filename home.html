@@ -1,0 +1,42 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="/home/asm/Documents/calc/design.css">
+</head>
+<body>
+<br/>
+
+<form Name="calc">
+<center>
+<table >
+<tr>
+<td colspan=4><input name="display" class="tt"type="text">
+</td>
+</tr>
+<tr>
+<td><input type=button class="bb" value="0" OnClick="calc.display.value+='0'"></td>
+<td><input type=button class="bb" value="1" OnClick="calc.display.value+='1'"></td>
+<td><input type=button value="2" class="bb"OnClick="calc.display.value+='2'"></td>
+<td><input type=button value="+" class="bb" OnClick="calc.display.value+='+'"></td>
+</tr>
+<tr>
+<td><input type=button value="3" class="bb" OnClick="calc.display.value+='3'"></td>
+<td><input type=button value="4" class="bb" OnClick="calc.display.value+='4'"></td>
+<td><input type=button value="5" class="bb" OnClick="calc.display.value+='5'"></td>
+<td><input type=button value="-" class="bb" OnClick="calc.display.value+='-'"></td>
+</tr>
+<tr>
+<td><input type=button value="6" class="bb" OnClick="calc.display.value+='6'"></td>
+<td><input type=button value="7" class="bb" OnClick="calc.display.value+='7'"></td>
+<td><input type=button value="8" class="bb" OnClick="calc.display.value+='8'"></td>
+<td><input type=button value="x" class="bb" OnClick="calc.display.value+='*'"></td>
+</tr>
+<tr>
+<td><input type=button value="9" class="bb" OnClick="calc.display.value+='9'"></td>
+<td><input type=button value="C" class="bc" OnClick="calc.display.value=''"></td>
+<td><input type=button value="=" class="bb" OnClick="calc.display.value=eval(calc.display.value)"></td>
+<td><input type=button value="/" class="bb" OnClick="calc.display.value+='/'"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
